@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Raleway:wght@300;600&display=swap');
+
+
+
+.main_div {
+    background-color: #04211c;
+    margin: 0;
+}
+
+.main_div1 {
+    background-color: #04211c;
+    padding: 50px 0px 50px 0px;
+    display: flex;
+    justify-content:center;
+    align-content: center;
+
+}
+
+.div_1 {
+    display: inline-block;
+    width: 40%;
+    padding:20px;
+    margin-top: 5px;
+    align-self: center;
+}
+
+#profile {
+    width: 410px;
+    box-shadow: 15px 15px 5px #EE4266;
+    z-index: 2;
+}
+
+.div_1 h1 {
+    font-family: 'Raleway', sans-serif;
+    color: #EE4266;
+    text-align: left;
+    font-size: 50px;
+    margin-top: 0px;
+    
+}
+
+h2 {
+    color: #EE4266;
+    font-weight: bold;
+    text-align: left;
+    font-size: 26px;
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    line-height: 2em;
+    max-width: 85%;
+    color: #FDE8E9;
+}
+
+.btn {
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    color: #FDE8E9;
+    display: inline;
+    float: left;
+    border: solid #FDE8E9;
+    padding: 15px;
+    text-decoration: none;
+    /* box-shadow: 10px 10px 5px #1AFFD5; */
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.btn span {
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+
+.btn::before {
+    content:'';
+    position: absolute;
+    top: var(--y);
+    left:var(--x);
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: #FDE8E9;
+    transition: width 0.5s height 0.5s;
+}
+
+.btn:hover::before {
+    width: 350px;
+    height: 350px;
+}
+
+.btn:hover {
+    color: #EE4266;
+}
+
+.btn:hover span {
+    padding-right: 25px;
+}
+
+
+.btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.btn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+

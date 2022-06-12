@@ -1,0 +1,27 @@
+nav {
+    /* background-color: #04443C; */
+    padding: 20px;
+    text-align: center;
+    /* position: fixed; */
+}
+
+
+nav a {
+    color: #002535;
+    margin: 5px;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight:800;
+
+}
+a:active {
+    color: #EE4266;
+}
+
+a:hover {
+    color:#EE4266;
+    text-decoration: none
+}
