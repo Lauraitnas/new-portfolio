@@ -13,7 +13,7 @@ function About(){
         <div className="main_div" id="about">
             <div class="div_1">
                 <h1>Full Stack Developer</h1>
-                <p>My highest aspiration is to become a full-stack developer and potentially a software engineer working for companies that can actually make a difference in people every day’s life. I first discovered my passion for coding a year ago, while trying to create an online presence for my family’s business back in Italy. When Covid first hit, they didn’t have any kind of “digital real-estate”. So I taught myself how to create a website using WordPress to help them stay afloat during the health crisis.</p>
+                <p>Italian native and fluent in French, English and Spanish, I graduated three years ago in International Relations and Communication in Lyon, France. After graduation, I moved to Perth to find new career opportunities and I am now working as marketing and event coordinator at Alliance Française de Perth.<br></br><br></br> With 3 years’ experience in the marketing industry in Perth, I am currently finding my way in the Tech industry and, thanks to SheCodes Australia, learning to program. I am now capable of navigating my way around Pyhton, HTML & CSS, JavaScript, Django (DRF) as well as React.js. My current goal is to become a full-stack developer and potentially a software engineer working for companies that can make a tangible difference in people's everyday life.</p>
                 <div className="a"><a class="btn" href="https://www.linkedin.com/in/laura-santi3/" target="_blank"><span> MORE ABOUT ME</span></a></div>
             </div>
             <div class="div_1">
