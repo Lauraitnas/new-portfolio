@@ -2,7 +2,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import React, { useState, useEffect, Component } from "react";
-import { Link } from "react-router-dom";
 import Slider from "react-slick";
 
 
@@ -20,18 +19,6 @@ import react from "../../images/react.png"
 import group from "../../images/group.png"
 import group1 from "../../images/javascript.png"
 import portfolio from "../../images/portfolio.png"
-
-//images
-
-import communicator from "../../images/communicator.png"
-import intuitive from "../../images/intuitive.png"
-import team from "../../images/team-player.png"
-import learner from "../../images/fast-learner.png"
-
-//icons
-import github from "../../images/github.png"
-
-
 
 
 export default class AutoPlay extends Component {

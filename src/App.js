@@ -1,6 +1,4 @@
-import {useState} from "react";
-import { Navigate, BrowserRouter as Router, Routes, Route} from "react-router-dom";
-import Slider from "react-slick"
+import { BrowserRouter as Router, Routes} from "react-router-dom";
 
 
 
