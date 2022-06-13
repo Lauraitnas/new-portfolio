@@ -52,3 +52,9 @@ footer div {
     justify-content: center;
     height: 150px;
 }
+
+@media (max-width: 775px) { 
+    .footer-item {
+        width: 100%;
+    }
+}

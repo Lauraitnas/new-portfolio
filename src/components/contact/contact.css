@@ -40,7 +40,7 @@ form {
     font-size: 20px;
     color: #FDE8E9;
     padding: 10px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
     letter-spacing: 1px;
 }
 
@@ -72,7 +72,7 @@ form {
 .form-item button {
     margin-top: 30px;
     font-size: 20px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
     letter-spacing: 2px;
 }
 
@@ -85,4 +85,12 @@ form {
 .form-item button {
     width: 100px;
     color: #FDE8E9;
+}
+
+
+@media (max-width: 775px) {
+
+    form{
+        width: 80%;
+    }
 }

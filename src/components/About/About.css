@@ -5,11 +5,6 @@
 
 .main_div {
     background-color: #04211c;
-    margin: 0;
-}
-
-.main_div1 {
-    background-color: #04211c;
     padding: 50px 0px 50px 0px;
     display: flex;
     justify-content:center;
@@ -123,3 +118,36 @@ p {
 }
 
 
+@media (max-width: 775px) { 
+    .main_div {
+        flex-direction: column;
+        /* margin: 0;    */
+        /* padding: 0; */
+        width: 100%;
+    }
+    
+    .div_1 {
+        width: 100%;
+        padding: 40px;
+        text-align: center;
+    }
+
+    .div_1 p, .div_1 h1 {
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .a {
+        text-align: center;
+
+    }
+
+    
+
+    #profile{
+        width: 300px;
+        justify-content: center;
+        object-fit: contain;
+    }
+
+}

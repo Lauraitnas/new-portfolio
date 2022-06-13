@@ -25,3 +25,11 @@ a:hover {
     color:#EE4266;
     text-decoration: none
 }
+
+
+@media (max-width: 775px) {
+
+    nav a{
+        font-size: 15px;
+    }
+}

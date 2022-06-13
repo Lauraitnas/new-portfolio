@@ -80,7 +80,6 @@ link {
 .text-container h1 {
     color: #fff;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid #1AFFD5; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
@@ -99,4 +98,12 @@ link {
 @keyframes blink-caret {
     from, to { border-color: transparent }
     /* 50% { border-color: #1AFFD5 } */
+}
+
+
+@media (max-width: 775px) { 
+
+    .text-container h1{
+        white-space:unset;
+    }
 }
