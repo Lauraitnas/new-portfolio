@@ -108,12 +108,16 @@
     font-size: 2em;
     font-weight:bold;
     font-family: 'Raleway', sans-serif;
+    text-align: center
+    ;
 
 }
 
 .image-desc{
     font-size: 1.25em;
-    margin-top: 0.25em;
+    margin-top: 0.6em;
+    text-align: center;
+    line-height: 1.7rem;
 }
 
 .image-txt{
